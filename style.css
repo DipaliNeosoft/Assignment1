@@ -1,0 +1,385 @@
+body {
+    margin: 0 ;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+  }
+  /* header starts */
+  #bi{
+    height: 350px;
+    background: url('images/bi.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .topnav a {
+    float: left;
+    padding-top: 10px;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 25px;
+
+  }
+  .topnav-right a {
+    float: left;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 30px;
+  }
+  .topnav-right {
+    float: right;
+  }
+  .heading{
+     color: white;
+      font-size: 45px;
+      text-align: center;
+  }
+  .hf{
+    margin-top: 52px;
+  }
+  .h4{
+      color:white;
+      text-align: center;
+  }
+  .hl{
+      text-align: center;
+      margin-top: -90px;
+  }
+  /* header ends */
+  /* content starts */
+  aside ul li{
+      display: inline-block;
+      margin-left: 25px;
+  }
+  aside ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+    background-image: linear-gradient(45deg,red 10%, yellow ) ;
+    border-radius: 20px;
+}
+
+.gdiv{
+  text-align: center;
+  margin-top: 55px;
+
+
+}
+.gdiv aside{
+  display: inline-block;
+  border: 2px solid;
+  margin-left: 40px;
+  margin-top: 30px;
+  padding-top: 30px;
+  color: white;
+  background-image: linear-gradient(45deg,orange,orangered);
+  border-radius: 50px;
+}
+#image1{
+  border-radius: 50px;
+}
+.gdiv aside:hover{
+  border: 2px solid grey;
+}
+figure{
+  height: 400px;
+}
+
+#btn1{
+  background-image: linear-gradient(45deg,red 10%, yellow ) ;
+  text-decoration: none;
+  border-radius: 20px;
+  text-align: center;
+  padding: 11px;
+  color: white;
+  font-weight: bold;
+}
+
+figcaption{
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+/* content ends */
+
+/* content2 starts */
+
+#img1{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  
+}
+span{
+  color: white;
+  padding-left: 10px;
+}
+.im1,.im2,.im3{
+    display: flex;
+    align-items:center;
+    float: left;
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.im4{
+  float: right;
+  display: flex;
+  align-items:center;
+  padding-left: 30px;
+  margin-right: 180px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+hr{
+  width: 90%;
+}
+/* content2 ends */
+
+/* content3 start */
+.i1,.i2,.i3,.i4{
+  height: 100px;
+ padding-left: 150px;
+ width: 100px;
+ margin-top: 50px;
+
+}
+.p{
+  color: white;
+ 
+}
+
+.Featured{
+  width: 100px;
+  margin-top: 50px;
+  color: white;
+  margin-left: 50px;
+}
+.fl{
+  float: left;
+}
+.clr{
+  clear: both;
+}
+/* content3 ends */
+/* contact form starts */
+table{
+  color: white;
+  padding-top: 50px;
+ 
+}
+td{
+  font-size: 20px;
+}
+.no-outline{
+  outline: none;
+  border: none;
+}
+#btns{
+  margin:0 auto;
+  padding: 10px;
+  width:300px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  border: 3px solid yellow;
+  background-image: linear-gradient(45deg,red,orange);
+}
+input[type="text"],input[type="password"],input[type="email"],input[type="number"]{
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 2px solid white;
+  margin-top: 30px;
+  padding: 10px;
+}
+input:focus{
+  color: white;
+  border-bottom: 3px solid whitesmoke;
+}
+caption{
+  font-size: 30px;
+}
+input::placeholder{
+  color: white;
+  }
+
+.contact{
+background-image: linear-gradient(45deg,red,orange);
+height: 650px;
+width:500px;
+text-align: center;
+margin: auto;
+border-radius: 50px;
+margin-top: 100px;
+padding-top:40px;
+}
+textarea{
+margin-top: 30px;
+padding: 10px;
+}
+/* contact form ends */
+/* sign up form starts */
+.signup{
+  background-image: linear-gradient(45deg,red,orange);
+  height: 500px;
+  width:500px;
+  text-align: center;
+  margin: auto;
+  border-radius: 50px;
+  margin-top: 100px;
+  padding-top:40px;
+  }
+ 
+  /* sign up form ends */
+
+  /* login starts */
+  .login{
+    background-image: linear-gradient(45deg,red,orange);
+    height: 400px;
+    width:500px;
+    margin: auto;
+    padding-top: 50px;
+    margin-top: 80px;
+    border-radius: 50px;
+    }
+    /* login ends */
+/* footer starts */
+
+.mfooter{
+  height: 230px;
+  background-color: black;
+  color: white;
+}
+.f1 ul li a{
+  text-decoration: none;
+  color: white;
+  
+}
+ul{
+  list-style-type:none;
+}
+.h41{
+  
+  margin-left: 50px;
+}
+ .f1{
+   margin-top: 10px;
+ }
+ 
+p a{
+  color: white;
+  text-decoration: none;
+}
+    
+  .f1{
+    float: left;
+    text-align: center;
+    padding-top: 5px;
+  }
+  
+  .fr{
+    float: right;
+    text-align: center;
+  }
+  .h:hover{
+  color:grey;
+  text-decoration: underline;
+  }
+
+  .fa {
+    padding: 10px;
+  text-align: center;
+
+    width: 40px;
+    text-decoration: none;
+  }
+.fa-instagram ,.fa-facebook,.fa-twitter {
+  color: white;
+  float: right;
+  
+}
+
+/* footer ends */
+
+/* media Query */
+@media screen and (max-width:1020px) {
+.heading {color: violet;}
+.i1,.i2,.i3,.i4{padding-left: 90px;}
+.im1,.im2,.im3{padding-left: 25px;margin: 0;}
+.im4{margin-right: 10px;}
+hr{width: 100%;}
+.contact{margin-top: 60px;margin-bottom: 60px;}
+.signup{margin: auto;margin-top: 40px;}
+  
+}
+
+@media screen and (max-width:810px) {
+  .heading {color: blue;}
+  .fr{float: none;}
+  .f1{padding-left: 30px;}
+  .im1,.im2{padding: 65px;}
+  .im3{padding-left: 60px;}
+  .im4{margin-right: 220px;}
+  .i1,.i2,.i3,.i4{padding-left: 40px;}
+  #image1{
+    height: 200px;
+    width: 200px;
+  }
+  figure{
+    height: 300px;
+    width: 200px;
+  }
+} 
+
+
+@media screen and (max-width:510px) {
+  .heading {color: deeppink;}
+  .i3{margin-left: 150px;} 
+  .f1{padding-left: 55px;}
+ .im1,.im2{margin: -49px;}
+ .im3{padding-left:10px;}
+ .im4{padding-left: 0px;margin: 6px;}
+ #image1{
+  height: 90px;
+  width: 100px;
+}
+.gdiv{
+  padding: 0;
+}
+figure{
+  margin:5px;
+  height: 200px;
+  width: 170px;
+}
+.contact{
+  padding-top:40px ; margin-top: 60px;
+  height: 580px;
+  width: 400px;
+}
+table{padding-top: 0px;}
+.signup{
+    padding-top:40px ; margin-top: 80px;
+    height: 400px;
+    width: 400px;
+}
+.login{
+  padding-top:40px ; margin-top: 80px;
+  height: 350px;
+  width: 400px;
+}
+
+} 
+
+
